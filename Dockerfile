@@ -8,4 +8,4 @@ RUN sudo sh -c 'wget https://cli-assets.heroku.com/branches/stable/heroku-linux-
   /usr/local/lib/heroku/install'
 
 RUN heroku update
-RUN sudo npm install -g yarn'
+RUN sudo npm install -g yarn

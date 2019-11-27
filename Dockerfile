@@ -1,5 +1,5 @@
 FROM circleci/ruby:2.4.1-node
-MAINTAINER "CAMPFIRE, Inc.<tech@camp-fire.jp>"
+LABEL maintainer="CAMPFIRE, Inc.<tech@camp-fire.jp>"
 
 RUN sudo sh -c 'wget https://cli-assets.heroku.com/branches/stable/heroku-linux-amd64.tar.gz -O heroku.tar.gz && \
   mkdir -p /usr/local/lib && \
